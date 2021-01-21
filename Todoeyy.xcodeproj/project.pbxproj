@@ -14,6 +14,7 @@
 		1BAE5FD225AE7D800022E052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE5FD125AE7D800022E052 /* Assets.xcassets */; };
 		1BAE5FD525AE7D800022E052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE5FD325AE7D800022E052 /* LaunchScreen.storyboard */; };
 		1BAE600F25B0329C0022E052 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE600D25B0329C0022E052 /* DataModel.xcdatamodeld */; };
+		1BAE609525B9419C0022E052 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE609425B9419C0022E052 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1BAE5FD425AE7D800022E052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BAE5FD625AE7D800022E052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BAE600E25B0329C0022E052 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		1BAE609425B9419C0022E052 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		1BAE5FDF25AE9D310022E052 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1BAE609425B9419C0022E052 /* CategoryViewController.swift */,
 				1BAE5FCC25AE7D800022E052 /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAE609525B9419C0022E052 /* CategoryViewController.swift in Sources */,
 				1BAE600F25B0329C0022E052 /* DataModel.xcdatamodeld in Sources */,
 				1BAE5FCD25AE7D800022E052 /* ToDoListViewController.swift in Sources */,
 				1BAE5FC925AE7D800022E052 /* AppDelegate.swift in Sources */,
